@@ -231,8 +231,8 @@ def TrackImages():
     #print(attendance)
 	res=attendance
 	message2.configure(text= res)   
-	fromaddr = "bhavanavutla28@gmail.com"
-	toaddr = "muddana.keerthana@gmail.com"
+	fromaddr = "sender@gmail.com"
+	toaddr = "receiver@gmail.com"
    
 # instance of MIMEMultipart 
 	msg = MIMEMultipart() 
@@ -279,7 +279,7 @@ def TrackImages():
 	s.starttls() 
   
 # Authentication 
-	s.login(fromaddr, "Bhavana@123") 
+	s.login(fromaddr, "sender_password") 
   
 # Converts the Multipart msg into a string 
 	text = msg.as_string() 
@@ -302,7 +302,6 @@ trackImg.place(x=800, y=500)
 quitWindow = tk.Button(window, text="Quit", command=window.destroy  ,fg="red"  ,bg="yellow"  ,width=20  ,height=3, activebackground = "Red" ,font=('times', 15, ' bold '))
 quitWindow.place(x=1100, y=500)
 copyWrite = tk.Text(window, background=window.cget("background"), borderwidth=0,font=('times', 30, 'italic bold underline'))
-#copyWrite.tag_configure("superscript", offset=10)
 copyWrite.insert("insert", "Developed by Team SB2K","")
 copyWrite.configure(state="disabled",fg="white"  )
 copyWrite.pack(side="left")
