@@ -1,7 +1,7 @@
 # Smart-Logbook
 #This a group project developed by V.Bhavana,M.Keerthana,Y.Bhavya Sri,Y.Sravani
 Steps:
-Initially,you will be having an empty StudentDetails.csv file. After each person's registration will be updated.
+Initially,you will be having an empty StudentDetails.csv file. After that, each person's registration will be updated.
 1.)Run the file finallog.py.
 2.)You'll come across a GUI interface with a set of buttons and attributes.Follow the below procedure now.
 3.)Give your details like ID,Name as mentioned in the interface.
